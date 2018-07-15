@@ -1,9 +1,9 @@
 FROM base/archlinux
 ENV  UUID=51cbAC87-a373-3347-8169-33d4bbaeb857  CERT_PEM=none KEY_PEM=none VER=3.19
 
-ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\": 
+ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\":
 
-ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\" 
+ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\"
 
 ENV CONFIG_JSON3=\",\"alterId\":64}]},\"streamSettings\":{\"network\":\"ws\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}}
 
